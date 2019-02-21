@@ -38,3 +38,6 @@ vignettes/*.pdf
 *.synctex.gz
 *.bbl
 *.aux
+
+# mac temp
+*.DS_Store
