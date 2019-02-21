@@ -1,6 +1,6 @@
 # icldc-bbl
 
-Code by: Bradley Rentz
+Code by: Shmadley Rentz
 
 R Script and data for ICLDC  poster: "Tsova-Tush Language Attitudes and Use", Bryn Hauk and Bradley Rentz, 2019
 
