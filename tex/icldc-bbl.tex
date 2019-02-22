@@ -1,3 +1,5 @@
+%!TEX TS-program = lualatex
+%!TEX encoding = UTF-8 Unicode
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Poster for the PaPE Conference 2017 by Bradley Rentz and Victoria Anderson
 % Code adapted from:
@@ -20,7 +22,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-% Note: to compile need fonts: Source Sans Pro & Univers LT Std
+% Note: to compile need fonts: Roboto Light and Helvetica Neue
 
 \documentclass[portrait,fontscale=0.285,a0paper]{baposter2}
  % Adjust the font scale/size here
@@ -118,12 +120,13 @@ headerfont=\mainfont\Large\bf, % Large, bold and sans serif font in the headers 
 %textfont={\setlength{\parindent}{1.5em}}, % Uncomment for paragraph indentation
 linewidth=2pt % Width of the border lines around content boxes
 }
+
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION 
 %----------------------------------------------------------------------------------------
 %
 {\includegraphics[height=8em]{seal.jpg}} % First university/lab logo on the left
-{\bf\huge Tsova-Tush Language Attitudes and Use\\ \vspace{0.2em}}% Poster title
+{\bf Tsova-Tush Language Attitudes and Use\\ \vspace{0.2em}}% Poster title
 {Bryn Hauk \& Bradley Rentz \\ \vspace{0.1em} \emph{University of Hawai`i at M{\=a}noa, Department of Linguistics}} % Author names and institution
 %{\includegraphics[height=4em]{logo.png}} % Second university/lab logo on the right
 
@@ -173,13 +176,6 @@ Caucasian language spoken  in the village of Zemo Alvani, Georgia. We re-estimat
 Most sources suggest between 2,500--3,200 speakers, an estimate apparently traceable back to \textit{a count taken in the 1960s}, although these sources’ recent publication dates obscure the age of this data. \end{singlespace}
 
 
-%The number of speakers today is  significantly fewer.
-%\citet{harrisperception2011} more recently estimated 100 speakers of Tsova-Tush in Zemo Alvani, with
-%perhaps an equal number living  outside the village. This estimate, while more accurate, is
-% too low. %given a 2014 sociolinguistic survey \citep{gigasviliprincipal2014} that reported 160 speakers under
-%40 with no estimate for older speakers, who comprise the largest portion of the speakership.
-
-
 \begin{center}
 {\footnotesize
 \begin{tabular}{@{}p{0.5in}p{1.5in}p{0.45in}@{}}
@@ -190,18 +186,14 @@ Most sources suggest between 2,500--3,200 speakers, an estimate apparently trace
 2,500--3,000                  & \citealt{kolgabats2001}                  \raggedright                       & 1960s            \\
 2,000                         & \citealt{savxelisvili2001}               \raggedright                   & unclear          \\
 200                          & \citealt{harrisperception2011}   \raggedright                          & 2011             \\ \bottomrule
-%more than 160   \raggedright              & \citealt{gigasviliprincipal2014}       \raggedright                             & 2014             \\ 
 \end{tabular}
 }
 \captionof{table}{\footnotesize Available estimates for number of Tsova-Tush speakers}
 \end{center}
 
-\begin{singlespace}We propose updating speaker number estimates based on consultation with speakers living in Zemo Alvani. Local experts indicate that roughly half the village is of Tsova-Tush heritage, and between one half and one quarter are speakers. The 2014 Georgian census claims the
-population of Zemo Alvani is 3,306. Thus, locals predict the population of Tsova-Tush people to be roughly
-1,600 and the number of speakers to be perhaps 400–800.
-\end{singlespace}\\
-
-%These numbers provide a more accurate picture based on local expertise of the current speakership of Tsova-Tush than available estimates.  add to conclusions
+\begin{singlespace}We propose updating speaker number estimates based on consultation with speakers living in Zemo Alvani. Local experts indicate that roughly half the village is of Tsova-Tush heritage, and between one half and one quarter are speakers. The 2014 Georgian census claimed the population of Zemo Alvani was 3,306. Thus, locals predict the population of Tsova-Tush people to be roughly
+\textbf{1,600} and the number of speakers to be perhaps \textbf{400–800}.
+\end{singlespace}
 
 
 
@@ -419,7 +411,7 @@ We found that widely cited estimates of Tsova-Tush speakers dramatically overrep
 }}
 
 \headerbox{Acknowledgments}{name=ackno,column=1,below=conclusion,span=1}{
-{\begin{singlespace}\scriptsize We thank the Bilinski Education Foundation for grant support and Dr.~Andrea Berez-Kroeker for comments. Thanks also to Revaz Orbetišvili and to Tsova-Tush respondents: {\georgianfont მადელ შუნ}. Errors are our own.}
+\begin{singlespace}\scriptsize We thank the Bilinski Education Foundation for grant support and Dr.~Andrea Berez-Kroeker for comments. Thanks also to Revaz Orbetišvili and to Tsova-Tush respondents: {\georgianfont მადელ შუნ}. Errors are our own.
 \end{singlespace}
 }
 
